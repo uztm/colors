@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100px;
+  background-color: aqua;
+}
+.head-inner{
+  display: flex;
+}
+
+.header-img{
+  width: 60px;
+  
+}
+.nav a{
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 700;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav a:hover{
+  color: red;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner{
+  background-image: url(./images/helpbox-contact.jpg);
+  width: 1900px;
+  height: 900px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
 }
